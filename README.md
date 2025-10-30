@@ -1,16 +1,48 @@
-# React + Vite
+🧭 Strapi Navigation Menu (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based responsive navigation system inspired by the Strapi.io website.
+It demonstrates how to build an interactive menu with context, submenus, and sidebars using React Hooks and reusable components.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧱 Modular Components — built with Navbar, Sidebar, NavLinks, Submenu, and Hero.
 
-## React Compiler
+⚙️ Global State Management — handled through a custom React Context.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Responsive Sidebar — opens and closes with smooth transitions.
 
-## Expanding the ESLint configuration
+🧭 Dynamic Submenu — displays nested links when hovering over menu items.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧠 Mouse Events Logic — uses onMouseEnter, onMouseLeave, and useRef() for precise hover detection.
+
+🎨 Clean UI structure — easily styled with custom CSS.
+
+🧩 What I Practiced
+
+While building this project, I practiced and learned:
+
+React Context API – managing global states (openSidebar, closeSidebar, setPageId, etc.).
+
+Component Composition – splitting logic into small, reusable parts (Navbar, NavLinks, Submenu, Sidebar, Hero).
+
+Event Handling – controlling when submenus appear or disappear based on mouse position.
+
+Conditional Rendering – showing/hiding UI elements using simple conditions and dynamic classNames.
+
+Array Mapping – dynamically rendering data from an external data.js file.
+
+Working with Refs – using useRef and getBoundingClientRect() for hover area detection.
+
+Responsive Design Concepts – ensuring the sidebar and main navigation adapt to smaller screens.
+
+Using React Icons – importing and rendering icons like FaBars and FaTimes.
+
+⚡ Tech Stack
+
+React (Vite)
+
+JavaScript (ES6+)
+
+React Icons
+
+CSS (custom)
